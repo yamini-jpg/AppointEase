@@ -1,38 +1,79 @@
-# Manage Your Appointments or Dates
+# 📅 AppointEase
 
-This is full feature web application created in ASP.Net Web Api and React.JS to manage dates or appointments or anything similar.
+## 🚀 Overview
+The **Appointment Management System** is a full-stack web application built with **ASP .NET Core Web API** and **React.js**. It enables users to **schedule, manage, and track appointments** efficiently, making it ideal for businesses, clinics, and service providers.
 
-### Todos before starting the app
-1. Set the correct connection string
-2. If necessary change the database name
-3. For the client app you need to install the dependencies
-    From your terminal inside the ClientApp folder, run "npm install"
-4. For the Web Api dependencies, check the necessary dependencies in NuGet package manager.
+## 🖥️ Demo
+🔗 **Live Demo**: [Click here](#) *(Add deployment link if available)*
 
-> _The version of Web Api dependencies has to match the version .net framework otherwise you will get error(s)._
+## 📌 Features
+- 📝 **Appointment Booking** – Users can create, edit, and delete appointments.
+- 📅 **Calendar View** – A user-friendly interface to manage schedules.
+- 🔄 **Real-Time Updates** – Ensures seamless synchronization of appointments.
+- 🔐 **User Authentication** – Secure login and role-based access.
+- 📊 **Admin Dashboard** – Manage users and track appointments efficiently.
+- 📧 **Email Notifications** – Send automated reminders for upcoming appointments.
 
-#### This project was part of my YouTube tutorials so you can also watch the video on YouTube [here](https://youtu.be/EJgzPBO2juM).
+## 🛠️ Tech Stack
+- **Frontend:** React.js, Tailwind CSS
+- **Backend:** ASP .NET Core Web API
+- **Database:** SQL Server / PostgreSQL
+- **Authentication:** JWT / OAuth
+- **Deployment:** Docker, Azure / AWS
 
-> _Link to my YouTube Channel [https://www.youtube.com/@CodingAqyanoos](https://www.youtube.com/@CodingAqyanoos)_
+## 📂 Project Structure
+```
+AppointmentManager/
+│── client/               # Frontend React app
+│── server/               # Backend API (ASP .NET Core Web API)
+│── database/             # Database schema & migrations
+│── docs/                 # Documentation & API reference
+│── README.md             # Project documentation
+│── package.json          # Dependencies
+```
 
-> _Link to my website [https://aqyanoos.com](https://aqyanoos.com)_
+## 🔧 Installation
+1. **Clone the repository**
+   ```sh
+   git clone https://github.com/Sayed94h/manage-appointments.git
+   cd manage-appointments
+   ```
 
+2. **Backend Setup (ASP .NET Core API)**
+   ```sh
+   cd server
+   dotnet restore
+   dotnet run
+   ```
 
-## The landing page
+3. **Frontend Setup (React.js)**
+   ```sh
+   cd client
+   npm install
+   npm start
+   ```
 
-![landing page](./img/landing-page.PNG)
+4. **Open in browser:**
+   ```
+   http://localhost:3000
+   ```
 
-## Filtered appointments(Done)
+## 🚀 Usage
+- **Register/Login** to manage your appointments.
+- **Create, update, and delete** appointments as needed.
+- **View your schedule** in a calendar format.
+- **Receive email reminders** for upcoming appointments.
 
-![landing page](./img/filtered-done.PNG)
+## 🛠️ Customization
+- Modify **styles and UI** in `client/src/components/`.
+- Configure **API endpoints** in `server/appsettings.json`.
+- Adjust **database settings** in `server/DatabaseConfig.cs`.
 
-## Filtered appointments(Deleted)
+## 💡 Future Enhancements
+- 📌 **Google Calendar Integration** – Sync appointments with Google Calendar.
+- 📱 **Mobile-Friendly UI** – Improve responsiveness for mobile devices.
+- 📊 **Analytics Dashboard** – Insights on appointment trends.
 
-![landing page](./img/filtered-deleted.PNG)
-
-### You have also other options to filter appointments like filtering based on dates, time, flags(level of importance),...
-
-
-
-
+## 📜 License
+This project is licensed under the MIT License.
 
