@@ -3,9 +3,6 @@
 ## 🚀 Overview
 The **Appointment Management System** is a full-stack web application built with **ASP .NET Core Web API** and **React.js**. It enables users to **schedule, manage, and track appointments** efficiently, making it ideal for businesses, clinics, and service providers.
 
-## 🖥️ Demo
-🔗 **Live Demo**: [Click here](#) *(Add deployment link if available)*
-
 ## 📌 Features
 - 📝 **Appointment Booking** – Users can create, edit, and delete appointments.
 - 📅 **Calendar View** – A user-friendly interface to manage schedules.
